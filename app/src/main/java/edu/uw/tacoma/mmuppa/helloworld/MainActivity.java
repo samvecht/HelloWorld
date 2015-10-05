@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+//
         Log.i(TAG, "onCreate method");
         sendAgainButton = (Button)
                 findViewById(R.id.btn_send_again);
